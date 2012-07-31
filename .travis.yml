@@ -1,6 +1,8 @@
 language: python
 python:
   - "2.7"
+install:
+  - npm install jasmine-node -g
 script:
   - python test.py
-  - python test2.py
+  - jasmine-node spec
