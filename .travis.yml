@@ -2,7 +2,6 @@ language: python
 python:
   - "2.7"
 node_js:
-  - 0.4
   - 0.6
 install:
   - npm install jasmine-node -g
