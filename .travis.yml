@@ -1,5 +1,6 @@
 language: python
 python:
   - "2.7"
-script: python test.py
-script: python test2.py
+script:
+  - python test.py
+  - python test2.py
