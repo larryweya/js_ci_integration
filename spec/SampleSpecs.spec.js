@@ -1,7 +1,7 @@
 describe('jasmine-node', function(){
 
   it('should pass', function(){
-    expect(1+2).toEqual(5);
+    expect(1+2).toEqual(3);
   });
 
   it('shows asynchronous test', function(){
